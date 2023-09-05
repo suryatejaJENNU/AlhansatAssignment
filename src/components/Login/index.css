@@ -1,0 +1,79 @@
+.bg-container {
+  background-color: rgba(25, 118, 173, 1);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-heading {
+  font-family: 'Pacifico';
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.login-page {
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.image {
+  height: 250px;
+  width: 400px;
+}
+
+.disc {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(30, 41, 59, 1);
+}
+
+.button {
+  background-color: rgba(25, 118, 173, 1);
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page {
+    border-radius: 8px;
+    padding: 5px;
+    flex-shrink: 0;
+  }
+  .image {
+    width: 280px;
+    height: 170px;
+  }
+  .task-heading {
+    font-size: 25px;
+  }
+  .bg-container {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+}
